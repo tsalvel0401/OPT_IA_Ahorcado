@@ -1,0 +1,27 @@
+{
+  "name": "adivina-palabra",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:words": "node scripts/test_words.js",
+    "test:logic": "node scripts/test_logic.js",
+    "test:sim": "node scripts/test_gameplay_simulation.js",
+    "test": "node scripts/test_words.js && node scripts/test_logic.js && node scripts/test_gameplay_simulation.js"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "canvas-confetti": "^1.9.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.7"
+  }
+}

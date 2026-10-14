@@ -1,0 +1,100 @@
+{
+  "app": {
+    "title": "Adivina la Palabra",
+    "subtitle": "Descubre la palabra oculta letra a letra",
+    "version": "v2.0.0",
+    "statusOnline": "Listo para jugar",
+    "credits": "Desarrollado con arquitectura limpia y React"
+  },
+  "cta": {
+    "start": "COMENZAR",
+    "newWord": "NUEVA PALABRA",
+    "nextChallenge": "SIGUIENTE RETO",
+    "playAgain": "JUGAR OTRA VEZ",
+    "sessionCompleted": "SESIÓN COMPLETADA"
+  },
+  "stats": {
+    "wordsInPlay": "Palabras en juego",
+    "mistakes": "Fallos",
+    "mistakesRatio": "{{current}} / {{max}}",
+    "score": "Puntuación",
+    "wordLength": "{{count}} letras"
+  },
+  "input": {
+    "label": "LETRA:",
+    "placeholder": "·",
+    "submit": "COMPROBAR",
+    "hintActive": "Introduce una letra del alfabeto español (A-Z, Ñ) sin tildes.",
+    "hintInactive": "Pulsa COMENZAR para activar la entrada de letras."
+  },
+  "usedLetters": {
+    "title": "Letras utilizadas",
+    "hits": "Aciertos",
+    "hitsCount": "Aciertos ({{count}}):",
+    "misses": "Fallos",
+    "missesCount": "Fallos ({{count}}):",
+    "empty": "Las letras que vayas utilizando aparecerán registradas aquí."
+  },
+  "hero": {
+    "placeholderPrompt": "Pulsa COMENZAR para descubrir la palabra oculta",
+    "hiddenTileAria": "Casilla oculta",
+    "revealedTileAria": "Letra descubierta: {{letter}}"
+  },
+  "feedback": {
+    "gameStarted": "¡Partida iniciada! Adivina la palabra oculta.",
+    "gameRestarted": "Partida reiniciada. ¡Buena suerte con el nuevo reto!",
+    "letterHit": "¡Bien! La letra \"{{letter}}\" está en la palabra.",
+    "letterMiss": "La letra \"{{letter}}\" no está en la palabra. Fallo {{current}} de {{max}}.",
+    "letterRepeated": "La letra \"{{letter}}\" ya ha sido utilizada anteriormente.",
+    "invalidEmpty": "Por favor, introduce una letra antes de comprobar.",
+    "invalidSingle": "Solo debes introducir una única letra.",
+    "invalidAccents": "No se permiten tildes ni diéresis. Introduce letras sin acentos.",
+    "invalidNumbers": "No se permiten números. Introduce una letra del alfabeto.",
+    "invalidSymbols": "No se permiten símbolos, espacios ni caracteres especiales.",
+    "notActive": "Pulsa COMENZAR para iniciar la partida.",
+    "alreadyFinished": "La partida ha terminado. Pulsa COMENZAR para un nuevo reto.",
+    "allWordsCompleted": "¡Has descubierto todas las palabras de esta sesión!",
+    "sessionReset": "Sesión restablecida con {{count}} palabras en juego."
+  },
+  "modals": {
+    "victoryTitle": "¡ENHORABUENA!",
+    "victorySubtitle": "Has descubierto la palabra con éxito:",
+    "victoryMistakes": "Fallos cometidos",
+    "victoryScore": "Puntuación obtenida",
+    "defeatTitle": "FIN DE PARTIDA",
+    "defeatSubtitle": "Has alcanzado el límite de fallos permitidos. La palabra era:",
+    "defeatMistakes": "Fallos cometidos",
+    "defeatScore": "Puntuación final",
+    "confirmRestartTitle": "¿Reiniciar partida actual?",
+    "confirmRestartMessage": "La partida actual está en curso. Si continúas, se contabilizará como reinicio y comenzará un nuevo reto.",
+    "confirmChangeLanguageTitle": "¿Cambiar idioma de juego?",
+    "confirmChangeLanguageMessage": "Tienes una partida en curso. Al cambiar de idioma se iniciará una nueva sesión con el vocabulario correspondiente.",
+    "rulesTitle": "Reglas del Juego",
+    "rulesIntro": "Adivina la palabra oculta seleccionada al azar del conjunto de palabras disponibles:",
+    "rulesList": [
+      "Cada palabra tiene entre 7 y 10 letras.",
+      "Dispones de un máximo de 7 fallos para descubrirla.",
+      "La puntuación se calcula como: Letras acertadas × (7 - Fallos cometidos).",
+      "Cada letra repetida o entrada inválida no penaliza ni resta puntos.",
+      "Las palabras ya jugadas no se repiten durante la sesión activa."
+    ],
+    "btnConfirm": "Confirmar",
+    "btnCancel": "Cancelar",
+    "btnClose": "Cerrar",
+    "btnPlayAgain": "SIGUIENTE RETO",
+    "btnResetSession": "Nueva sesión ({{count}} palabras)"
+  },
+  "language": {
+    "select": "Idioma",
+    "es": "Español",
+    "en": "English"
+  },
+  "tutorial": {
+    "title": "¿Cómo se juega?",
+    "step1": "Se elige una palabra al azar de entre 7 y 10 letras.",
+    "step2": "Introduce una letra en el campo de texto y pulsa COMPROBAR.",
+    "step3": "Si la letra está en la palabra, se revela en su posición.",
+    "step4": "Si no está, se cuenta como fallo. Tienes un máximo de 7 fallos.",
+    "step5": "Cuantas más letras aciertes y menos falles, mayor será tu puntuación."
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "app": {
+    "title": "Word Guessing Game",
+    "subtitle": "Discover the hidden word letter by letter",
+    "version": "v2.0.0",
+    "statusOnline": "Ready to play",
+    "credits": "Engineered with Clean Architecture & React"
+  },
+  "cta": {
+    "start": "START GAME",
+    "newWord": "NEW WORD",
+    "nextChallenge": "NEXT CHALLENGE",
+    "playAgain": "PLAY AGAIN",
+    "sessionCompleted": "SESSION COMPLETED"
+  },
+  "stats": {
+    "wordsInPlay": "Words in play",
+    "mistakes": "Mistakes",
+    "mistakesRatio": "{{current}} / {{max}}",
+    "score": "Score",
+    "wordLength": "{{count}} letters"
+  },
+  "input": {
+    "label": "LETTER:",
+    "placeholder": "·",
+    "submit": "CHECK",
+    "hintActive": "Enter a single letter from A to Z without accents.",
+    "hintInactive": "Press START GAME to enable letter input."
+  },
+  "usedLetters": {
+    "title": "Letters used",
+    "hits": "Hits",
+    "hitsCount": "Hits ({{count}}):",
+    "misses": "Misses",
+    "missesCount": "Misses ({{count}}):",
+    "empty": "Letters you test will be recorded here."
+  },
+  "hero": {
+    "placeholderPrompt": "Press START GAME to reveal the secret word",
+    "hiddenTileAria": "Hidden tile",
+    "revealedTileAria": "Discovered letter: {{letter}}"
+  },
+  "feedback": {
+    "gameStarted": "Game started! Guess the secret word.",
+    "gameRestarted": "Match restarted. Good luck with the new challenge!",
+    "letterHit": "Great! Letter \"{{letter}}\" is in the word.",
+    "letterMiss": "Letter \"{{letter}}\" is not in the word. Mistake {{current}} of {{max}}.",
+    "letterRepeated": "Letter \"{{letter}}\" has already been used.",
+    "invalidEmpty": "Please enter a letter before checking.",
+    "invalidSingle": "You must enter only one letter.",
+    "invalidAccents": "Accents and diacritics are not allowed.",
+    "invalidNumbers": "Numbers are not allowed. Enter a valid letter.",
+    "invalidSymbols": "Symbols, spaces, and special characters are not allowed.",
+    "notActive": "Press START GAME to begin playing.",
+    "alreadyFinished": "This match is over. Press START GAME for a new challenge.",
+    "allWordsCompleted": "You have uncovered all words in this session!",
+    "sessionReset": "Session restarted with {{count}} words in play."
+  },
+  "modals": {
+    "victoryTitle": "CONGRATULATIONS!",
+    "victorySubtitle": "You discovered the word successfully:",
+    "victoryMistakes": "Mistakes made",
+    "victoryScore": "Score achieved",
+    "defeatTitle": "GAME OVER",
+    "defeatSubtitle": "You reached the mistake limit. The word was:",
+    "defeatMistakes": "Mistakes made",
+    "defeatScore": "Final score",
+    "confirmRestartTitle": "Restart active match?",
+    "confirmRestartMessage": "A match is currently in progress. Continuing will restart it and give you a new challenge.",
+    "confirmChangeLanguageTitle": "Switch language?",
+    "confirmChangeLanguageMessage": "You have an active match in progress. Switching language will start a fresh session with the selected vocabulary.",
+    "rulesTitle": "Game Rules",
+    "rulesIntro": "Guess the randomly selected secret word from the available word pool:",
+    "rulesList": [
+      "Every word contains between 7 and 10 letters.",
+      "You have a maximum of 7 mistakes to discover it.",
+      "Score is calculated as: Discovered letters × (7 - Mistakes made).",
+      "Repeated letters or invalid entries do not penalize or reduce score.",
+      "Words already played are not repeated during the active session."
+    ],
+    "btnConfirm": "Confirm",
+    "btnCancel": "Cancel",
+    "btnClose": "Close",
+    "btnPlayAgain": "NEXT CHALLENGE",
+    "btnResetSession": "New session ({{count}} words)"
+  },
+  "language": {
+    "select": "Language",
+    "es": "Español",
+    "en": "English"
+  },
+  "tutorial": {
+    "title": "How to play?",
+    "step1": "A random word of 7 to 10 letters is chosen.",
+    "step2": "Type a letter in the text field and press CHECK.",
+    "step3": "If the letter is in the word, it is revealed in its position.",
+    "step4": "If not, it counts as a mistake. You have a maximum of 7 mistakes.",
+    "step5": "The more letters you guess and the fewer mistakes you make, the higher your score."
+  }
+}
