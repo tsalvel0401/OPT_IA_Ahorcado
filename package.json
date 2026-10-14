@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npx vite build",
     "preview": "vite preview",
     "test:words": "node scripts/test_words.js",
     "test:logic": "node scripts/test_logic.js",
